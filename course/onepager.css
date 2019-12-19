@@ -4,7 +4,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
   line-height: 30px;
-  color: rgba(0, 0, 0, .87);
+  color: rgba(0, 0, 0, .85);
   margin-top: 80px;
   margin-bottom: 60px;
   background-color: #ffffff;
@@ -43,7 +43,7 @@ hr {
 
 .container-fluid {
   width: auto;
-  max-width: 700px;
+  max-width: 660px;
   padding: 0 15px;
 }
 
