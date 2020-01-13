@@ -4,14 +4,14 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
   line-height: 30px;
-  color: rgba(0, 0, 0, .85);
+  color: rgba(0, 0, 0, .75);
   margin-top: 80px;
   margin-bottom: 60px;
   background-color: #ffffff;
 }
 
 par {
-  color:rgba(0, 0, 0, .87);
+  color:rgba(0, 0, 0, .85);
   font-weight:600;
   padding-right: 3px;
 
@@ -25,6 +25,7 @@ a:link, a:hover, a:visited, a:active {
 
 b {
   font-weight: 600;
+  color: rgba(0, 0, 0, .7);
 }
 
 h1, h2 {
@@ -32,6 +33,7 @@ h1, h2 {
   margin-bottom: 1em;
   font-weight: 600;
   font-size: 15px;
+  color: rgba(0, 0, 0, .85);
 }
 
 hr {
@@ -49,6 +51,7 @@ hr {
 
 ::selection {
   }
+
 
 
 
