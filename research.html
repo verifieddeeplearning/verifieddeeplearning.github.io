@@ -2,25 +2,8 @@
 <html>
 
 <head>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-154896071-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'UA-154896071-1');
-</script>
-
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-MNRQRLX');</script>
-<!-- End Google Tag Manager -->
-
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
   <script>
     function showhide(id) {
       var e = document.getElementById(id);
@@ -29,8 +12,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
     function diffImage(img)
     {
-        if(img.src.match("logo.jpg")) img.src = "logo2.jpg";
-        else img.src = "logo.jpg";
+        if(img.src.match("logo.svg")) img.src = "logo2.svg";
+        else img.src = "logo.svg";
     }
     
   </script>
@@ -42,27 +25,22 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
   <link rel="stylesheet" href="./onepager.css">
 
-  <title>Verified deep learning book</title>
-
+  <title>Research Agenda</title>
 </head>
 
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MNRQRLX"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
 
   <div class="container-fluid">
     
     <h1>Verified Deep Learning</h1>
-    <h1 class="author">A book by <a href="http://www.cs.wisc.edu/~aws">Aws Albarghouthi</a> </h1>
+    <h1 class="author"><a href="www.cs.wisc.edu/~aws">Aws Albarghouthi</a> </h1>
 
-<img src="logo.jpg" align="left" style="margin-right:10px; width:18%" onclick=diffImage(this)>
+<img src="logo.svg" align="left" style="margin-right:10px; width:18%" onclick=diffImage(this)>
     Deep learning has transformed the way we think of software
     and what it can do.
     But deep neural networks are fragile and their behaviors are often surprising.
     In many settings, we need to provide formal guarantees on the safety, security, correctness, or robustness of neural networks.
-    This <b>in-progress book</b> covers foundational ideas from <b>formal verification</b> and their application to reasoning about <b>deep learning</b>.
+    This book covers foundational ideas from <b>formal verification</b> and their application to <b>deep learning</b>.
     <br><br>
 
 
@@ -76,10 +54,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <h2>Constraint-based verification</h2>
     <ul>
       <li>Decidable theories of first-order logic</li>
-      <li>Encoding neural networks logically</li>
       <li>Decision procedures</li>
-      <li>Specialized decision procedures</li>
-      <li></li>
+      <li>Encodings of neural networks</li>
+      <li>Quantitative properties</li>
     </ul>
    
     <h2>Abstraction-based verification</h2>
@@ -87,18 +64,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <li>A healthy dose of abstract interpretation</li>
       <li>Numerical abstract domains</li>
       <li>Abstract interpretation of neural networks</li>
-      <li>Training with abstract values</li>
+      <li>Abstract deep learning</li>
     </ul>
 
     <h2>Verification and reinforcement learning</h2>
     <ul>
       <li>Neural networks as policies</li>
       <li>Verifying RL policies</li>
-      <li>Efficient neural policy verification</li>
-      <li>Enforcing properties in RL</li>
+      <li>Enforcing properties via shielding</li>
     </ul>
-
-
 
 <br>
 <hr></hr>
@@ -110,19 +84,20 @@ Please use the following to cite this book.
   @book{albarghouthi-book,
     title = {Verified Deep Learning},
     author = {Aws Albarghouthi},
-    publisher = {verifieddeeplearning.com},
-    note = {\url{http://verifieddeeplearning.com}},
+    publisher = {...},
+    note = {\url{...}},
     year = {2020}
   }
   </code>
 </pre>
 
-
-
 Last updated <span id="demo"></span>
 <script>
     document.getElementById("demo").innerHTML = document.lastModified;
 </script>
+
+
+  </div>
 
 </body>
 

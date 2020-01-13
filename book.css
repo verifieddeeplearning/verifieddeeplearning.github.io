@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond:400,400i,500,500i,600,600i,700,700i,800,800i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Alegreya:400,400i,500,500i,700,700i,800,800i,900,900i&display=swap');
+
+
+html {
+    font-size: 14px; 
+}
+
+body {
+  font-family: 'Alegreya', serif;
+  line-height: 24px;
+  color: rgba(0, 0, 0, .9);
+  margin-top: 40px;
+  margin-bottom: 30px;
+  background-color: #ffffff;
+}
+
+
+a:link, a:hover, a:visited, a:active {
+  color: #d00000;
+}
+
+p.subtitle {
+    font-style: italic;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    display: block;
+    line-height: 1; 
+}
+
+.container-fluid {
+  width: auto;
+  max-width: 580px;
+  padding: 0 15px;
+}
+
