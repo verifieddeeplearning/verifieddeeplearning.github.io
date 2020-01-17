@@ -2,9 +2,9 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 30px;
-  color: rgba(0, 0, 0, .75);
+  color: rgba(0, 0, 0, .85);
   margin-top: 80px;
   margin-bottom: 60px;
   background-color: #ffffff;
@@ -13,8 +13,8 @@ body {
 par {
   color:rgba(0, 0, 0, .85);
   font-weight:600;
-  padding-right: 3px;
-
+  padding-right: 10px;
+  
 }
 
 a:link, a:hover, a:visited, a:active {
@@ -25,14 +25,13 @@ a:link, a:hover, a:visited, a:active {
 
 b {
   font-weight: 600;
-  color: rgba(0, 0, 0, .7);
+  color: rgba(0, 0, 0, .85);
 }
 
 h1, h2 {
   margin-top: 2em;
   margin-bottom: 1em;
   font-weight: 600;
-  font-size: 15px;
   color: rgba(0, 0, 0, .85);
 }
 
@@ -40,7 +39,7 @@ hr {
   width: 100%;
   border: none;
   height: 1.5px;
-  background-color: rgba(0, 0, 0, .6);
+  background-color: rgba(0, 0, 0, .85);
 }
 
 .container-fluid {
