@@ -22,6 +22,9 @@ a:link, a:hover, a:visited, a:active {
 
 }
 
+p{
+  margin-top:1.7em;
+}
 
 b {
   font-weight: 600;
