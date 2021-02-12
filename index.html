@@ -65,44 +65,23 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     This <b>in-progress book</b> covers foundational ideas from <b>formal verification</b> and their application to reasoning about <b>deep learning</b>.
     <br><br>
     
-    You can get <a href="./vdl.pdf">all available chapters</a>
-    as one pdf or access individual chapters below.
-    Keep in mind that the book is constantly evolving.
+    The book is comprised of 3 parts. A full PDF is coming soon.
     
-    <br><br>
+    <br>
 
 
-    <h3><a href="ch0.pdf">About this book</a></h3>
-    <h2>I Neural networks and correctness</h2>
-    <ul>
-      <li><a href="ch1.pdf">A new beginning</a></li>
-      <li><a href="ch2.pdf">Semantics of neural networks</a></li>
-      <li><a href="ch3.pdf">Correctness properties</a></li>
-    </ul>
+    <h2>Part I Neural networks and correctness</h2>
+The first part defines neural networks as data-flow graphs, a formulation that will serve as our basis for the rest of the book. Additionally, we will survey a number of correctness properties that are desirable of neural networks and place them in a formal framework.
     
-    <h2>II Constraint-based verification</h2>
-    <ul>
-        <li><a href="ch4.pdf">Decidable theories of first-order logic</a></li>
-        <li><a href="ch5.pdf">Encoding neural networks logically</a></li>
-        <li><a href="ch6.pdf">Decision procedures</a></li>
-      <li><a href="ch7.pdf">Specialized decision procedures</a></li>
-      <li></li>
-    </ul>
+    <h2>Part II Constraint-based verification</h2>
+The second part discusses constraint-based techniques for verification. As the name suggests, we construct a system of constraints and solve it to prove (or disprove) that a neural network satisfies some properties of interest. 
    
-    <h2>III Abstraction-based verification</h2>
-    <ul>
-      <li><a href="ch8.pdf">Abstraction for neural networks</a></li>
-      <li>Relational abstract domains</li>
-      <li>Training with abstract values</li>
-    </ul>
+    <h2>Part III Abstraction-based verification</h2>
+The third part discusses abstraction-based techniques for verification. Instead of executing a neural network on a single input, we can actually execute it on an infinite set and show that all of those inputs satisfy desirable correctness properties. 
 
-    <h2>IV Verification and reinforcement learning</h2>
-    <ul>
-      <li>Neural networks as policies</li>
-      <li>Verifying RL policies</li>
-      <li>Efficient neural policy verification</li>
-      <li>Enforcing properties in RL</li>
-    </ul>
+<br><br>
+Parts 2 and 3 are disjoint; the reader may go directly from Part 1 to Part 3 without losing context.
+
 
 
 
@@ -118,7 +97,7 @@ Please use the following to cite this book.
     author = {Aws Albarghouthi},
     publisher = {verifieddeeplearning.com},
     note = {\url{http://verifieddeeplearning.com}},
-    year = {2020}
+    year = {2021}
   }
   </code>
 </pre>
