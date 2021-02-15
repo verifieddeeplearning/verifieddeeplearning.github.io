@@ -63,7 +63,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     But deep neural networks are fragile and their behaviors are often surprising.
     In many settings, we need to provide formal guarantees on the safety, security, correctness, or robustness of neural networks.
     This <b>in-progress book</b> covers foundational ideas from <b>formal verification</b> and their application to reasoning about <b>deep learning</b>.
-    <br><br>
+    <br><br><br>
     
     The book is comprised of 3 parts. A full PDF is coming soon.
     
@@ -71,13 +71,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
     <h2>Part I Neural networks and correctness</h2>
-The first part defines neural networks as data-flow graphs, a formulation that will serve as our basis for the rest of the book. Additionally, we will survey a number of correctness properties that are desirable of neural networks and place them in a formal framework.
+We define neural networks as data-flow graphs, the formulation we will use for the rest of the book, and define correctness properties formally.
     
     <h2>Part II Constraint-based verification</h2>
-The second part discusses constraint-based techniques for verification. As the name suggests, we construct a system of constraints and solve it to prove (or disprove) that a neural network satisfies some properties of interest. 
+We discuss constraint-based (complete) techniques for verification, where we reduce the verification problem to a form of constraint-solving. 
    
     <h2>Part III Abstraction-based verification</h2>
-The third part discusses abstraction-based techniques for verification. Instead of executing a neural network on a single input, we can actually execute it on an infinite set and show that all of those inputs satisfy desirable correctness properties. 
+We discuss abstraction-based (approximate) techniques for verification, where we evaluate a neural network on an infinite set of inputs efficiently!
+
 
 <br><br>
 Parts 2 and 3 are disjoint; the reader may go directly from Part 1 to Part 3 without losing context.
@@ -85,7 +86,7 @@ Parts 2 and 3 are disjoint; the reader may go directly from Part 1 to Part 3 wit
 
 
 
-<br>
+<br><br>
 <hr></hr>
 For comments, contact the <a href="mailto:aws@cs.wisc.edu">author</a>.
 <br>
