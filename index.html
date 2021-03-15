@@ -42,7 +42,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
   <link rel="stylesheet" href="./onepager.css">
 
-  <title>Verified deep learning book</title>
+  <title>Neural network verification book</title>
 
 </head>
 
@@ -54,7 +54,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   <div class="container-fluid">
     
-    <h1>Verified Deep Learning</h1>
+    <h1>An Introduction to Neural Network Verification</h1>
     <h1 class="author">A book by <a href="http://www.cs.wisc.edu/~aws">Aws Albarghouthi</a> </h1>
 
 <img src="logo.jpg" align="left" style="margin-right:10px; width:18%" onclick=diffImage(this)>
@@ -62,26 +62,36 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     and what it can do.
     But deep neural networks are fragile and their behaviors are often surprising.
     In many settings, we need to provide formal guarantees on the safety, security, correctness, or robustness of neural networks.
-    This <b>in-progress book</b> covers foundational ideas from <b>formal verification</b> and their application to reasoning about <b>deep learning</b>.
-    <br><br><br>
+    This <b>in-progress book</b> covers foundational ideas from <b>formal verification</b> and their adaptation to reasoning about <b>neural networks and deep learning</b>.
+    <br><br>
     
-    The book is comprised of 3 parts. A full PDF is coming soon.
+    <i>A full PDF is coming soon.</i>
+    The book has 3 parts. Parts 2 and 3 are disjoint; the reader may go directly from Part 1 to Part 3 without losing context.
+
     
     <br>
 
 
     <h2>Part I Neural networks and correctness</h2>
-We define neural networks as data-flow graphs, the formulation we will use for the rest of the book, and define correctness properties formally.
-    
+    1. Neural networks and correctness<br>
+    2. Neural networks as graphs<br>
+    3. Correctness properties<br>
+
     <h2>Part II Constraint-based verification</h2>
-We discuss constraint-based (complete) techniques for verification, where we reduce the verification problem to a form of constraint-solving. 
-   
+    4. Logic and satisfiability<br>
+    5. Encodings of neural networks<br>
+    6. DPLL modulo theories<br>
+    7. Neural theory solvers<br>
+
     <h2>Part III Abstraction-based verification</h2>
-We discuss abstraction-based (approximate) techniques for verification, where we evaluate a neural network on an infinite set of inputs efficiently!
+    8. Neural interval abstraction<br>
+    9. Neural zonotope abstraction<br>
+    10. Neural polyhedron abstraction<br>
+    11. Verification with abstract interpretation<br>
+    12. Abstract training of neural networks<br>
+<br>
+    13. Looking ahead
 
-
-<br><br>
-Parts 2 and 3 are disjoint; the reader may go directly from Part 1 to Part 3 without losing context.
 
 
 
